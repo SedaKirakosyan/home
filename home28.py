@@ -79,19 +79,19 @@ to convert degree to radian."""
 """5. Write a Python function to print 
 all primes smaller than or equal to a 
 specified number."""
-import math
-def primes(number):
-	if isinstance(number,int):
-		for i in range(2,number+1):
-			for j in range(2,number):
-				if  i % j ==0:
-					continue
-			else:
-				numbers.append(i)
-	else:
-		print("Please write a number!")
-	print(numbers)
-numbers = []
-number = int(input("Number:"))
-print(primes(number))
+# import math
+# def primes(number):
+# 	if isinstance(number,int):
+# 		for i in range(2,number+1):
+# 			for j in range(2,number):
+# 				if  i % j ==0:
+# 					continue
+# 			else:
+# 				numbers.append(i)
+# 	else:
+# 		print("Please write a number!")
+# 	print(numbers)
+# numbers = []
+# number = int(input("Number:"))
+# print(primes(number))
      """Wrong"""
